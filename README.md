@@ -61,4 +61,5 @@ git config --global credential.helper 'cache --timeout=6000'
 - [William Lin](https://www.youtube.com/channel/UCKuDLsO0Wwef53qdHPjbU2Q)
 - [Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg)
 - [Aoxiang Cui](https://www.youtube.com/channel/UCDVYMs-SYiJxhIU2T0e7gzw)
+- [66 brother](https://www.youtube.com/channel/UCuiWMZZsY_oPcoXq8C3hU3Q)
 - [visualgo](https://visualgo.net/en)
