@@ -1,4 +1,4 @@
-# CSCI335
+# CSCI335 Software Design and Analysis III
 
 ## When 
 MoTuWeTh 5:45PM - 7:19PM
@@ -14,13 +14,16 @@ One tap mobile
 +13126266799,,87175792715# US (Chicago)
 
 Dial by your location
+```
         +1 929 205 6099 US (New York)
         +1 312 626 6799 US (Chicago)
         +1 301 715 8592 US (Washington DC)
         +1 346 248 7799 US (Houston)
         +1 669 900 6833 US (San Jose)
         +1 253 215 8782 US (Tacoma)
+
 Meeting ID: 871 7579 2715
+```
 Find your local number: https://gc-cuny-edu.zoom.us/u/kTlkmky6a
 
 Join by Skype for Business
