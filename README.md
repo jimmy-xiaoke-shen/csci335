@@ -5,7 +5,6 @@ MoTuWeTh 5:45PM - 7:19PM
 May 27 to July 12
 
 ## ZOOM
-```
 Join Zoom Meeting
 https://gc-cuny-edu.zoom.us/j/87175792715
 
@@ -26,7 +25,6 @@ Find your local number: https://gc-cuny-edu.zoom.us/u/kTlkmky6a
 
 Join by Skype for Business
 https://gc-cuny-edu.zoom.us/skype/87175792715
-```
 
 
 ## Who
