@@ -1,15 +1,14 @@
-You can register the contest from here:
-https://leetcode.com/contest/
+You can register the contest from [here](https://leetcode.com/contest/)
 
 This saturday (May 29, 2021), we will have two contests:
-1. Biweekly Leetcode contest.
-2. Weekly Leetcode contest.
+- Biweekly Leetcode contest.
+- Weekly Leetcode contest.
 Check the detail schedule by yourself. Usually, it happens biweekly: 10:30 am to 12:00
 weekly: 10:30 pm to 12:00.
 
 You can earn credits from both contests.
-If you participate in the contest, you can get 40 points.
-If you solve n problems, you can earn extra 10*n points.
+- If you participate in the contest, you can get 40 points.
+- If you solve n problems, you can earn extra 10*n points.
 
 Suppose you participate biweekly contest, and solve one problem
 and you participate weekly contest, and solve zero problem, 

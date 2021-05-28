@@ -1,7 +1,7 @@
-Assignment 1:
-LeetCode 1. Two Sum
+# Assignment 1:
+## LeetCode 1. Two Sum
 
-If you don't have an leetcode account yet, please register one from leetcode.com. For
+If you don't have an leetcode account yet, please register one from [leetcode](leetcode.com). For
 this class, you don't need to pay the membership fee for this leetcode account as all 
 the problems covered in our course will be unlocked problems.
 
@@ -11,9 +11,9 @@ get full credit. The due time is June 2, 23: 59.
 
 You can use your favoriate programming language to solve the problem.
 Please include:
-1. Your student id (using id instead of name to protect your privacy), 
-2. Time complexity and space complexity of your code,
-3. Add necessary comments on your code.
+- Your student id (using id instead of name to protect your privacy), 
+- Time complexity and space complexity of your code,
+- Add necessary comments on your code.
 
 
 A sample submission can be here:
