@@ -17,6 +17,7 @@ Please include:
 
 
 A sample submission can be here:
+```cpp
 /*
 Studentd id:     0000
 Time complexity: O(n^2)
@@ -39,3 +40,4 @@ public:
         return ret;
     }
 };
+```
