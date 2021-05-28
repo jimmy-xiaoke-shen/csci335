@@ -41,3 +41,9 @@ public:
     }
 };
 ```
+
+
+Submit format:
+You can either 
+- submit by using txt, word or screenshot of you ACed code.
+- or wirite the solution down on the paper or blackboard and take a photo to submit.
