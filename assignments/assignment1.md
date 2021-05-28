@@ -1,5 +1,5 @@
 # Assignment 1:
-## LeetCode 1. Two Sum
+## LeetCode 1. [Two Sum](https://leetcode.com/problems/two-sum/)
 
 If you don't have an leetcode account yet, please register one from [leetcode](leetcode.com). For
 this class, you don't need to pay the membership fee for this leetcode account as all 
