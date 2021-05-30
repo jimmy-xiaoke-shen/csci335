@@ -2,11 +2,11 @@
 ## LeetCode 1. [Two Sum](https://leetcode.com/problems/two-sum/)
 
 If you don't have an leetcode account yet, please register one from [leetcode](leetcode.com). For
-this class, you don't need to pay the membership fee for this leetcode account as all 
+this class, you **DO NOT** need to pay the membership fee for this leetcode account as all 
 the problems covered in our course will be unlocked problems.
 
-This is our first assignment. It will not be graded. If you submit it on time, you can 
-get full credit. The due time is June 2, 23: 59.
+This is our first assignment. It will **NOT** be graded. If you submit it on time, you can 
+get full credit. The due time is June 2, 23: 59 (late submission policy, pls check syllabus).
 
 
 You can use your favoriate programming language to solve the problem.
