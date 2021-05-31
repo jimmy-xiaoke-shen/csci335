@@ -1,4 +1,4 @@
-# [LC 1 TwoSum]()
+# [LC 1 TwoSum](https://leetcode.com/problems/two-sum/)
 
 
 # Solution 1: Two pointers
