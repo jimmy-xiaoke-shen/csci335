@@ -20,7 +20,7 @@ bool common(vector<unordered_set<char>> & letters, int i, int j)
 int solve(vector<string>& words) {
     const int n = words.size();
     vector<unordered_set<char>> letters(n);
-    // put characters of each word into a hash table.
+    // put characters of each word into a unordered_set.
     for (int i = 0; i < n; ++i) 
     {
         for (auto c: words[i])
