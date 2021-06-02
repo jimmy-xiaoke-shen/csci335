@@ -1,4 +1,4 @@
-# Assignment 1:
+# Assignment 2:
 ## LeetCode [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
 If you don't have an leetcode account yet, please register one from [leetcode](leetcode.com).
