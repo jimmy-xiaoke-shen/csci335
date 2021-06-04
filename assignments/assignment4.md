@@ -6,11 +6,12 @@ For this class, you **DO NOT** need to pay the membership fee for this leetcode 
 The problems covered in our course will be unlocked problems.
 
 It **WILL BE** graded:
-If you miss the time complexity, you will get -10
-If you miss the space complexity, you will get - 10.
-If your code is not correct (it can not pass by LC online judge), you will get -50
+- If you miss the time complexity, you will get -10
+- If you miss the space complexity, you will get - 10.
+- If your code is not correct (it can not pass by LC online judge), you will get -50
   
-If you submit it on time, you can  get at least 30. If you verified your code on Leetcode,
+Which means:
+- If you submit it on time, you can  get at least 30. If you verified your code on Leetcode,
 you will get at least 80. If you donot miss the complexity analysis, even you are not 
 correct, you will get 100.
 
