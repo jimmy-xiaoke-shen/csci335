@@ -52,3 +52,14 @@ So if we replace the hash table to array, it will be faster.
 Of course, since we only have 26 lower case letters, you can use 26 bits to solve the problem.
 For the 26 bits one, the complexity is O(n\*w\*1) instead of O(n\*w\*26) although the final complexities 
 are both O(n\*w). Try to code it up by yourself by using either one.
+
+Python TLE solution for reference
+```python
+class Solution:
+    def solve(self, words):
+        n = len(words)
+        char_sets = [set(word) for word in words]
+        return max(len(words[i]) + len(words[j]) for i, j in  itertools.combinations(range(n), 2)
+                                                if not (char_sets[i] & char_sets[j]))
+```
+
