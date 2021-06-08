@@ -5,14 +5,13 @@ If you don't have an leetcode account yet, please register one from [leetcode](l
 this class, you **DO NOT** need to pay the membership fee for this leetcode account as all 
 the problems covered in our course will be unlocked problems.
 
-This is our first assignment. It will **NOT** be graded. If you submit it on time, you can 
-get full credit. The due time is June 2, 23: 59 (late submission policy, pls check syllabus).
+This is our first assignment. It will **NOT** be graded. If you submit it on time, you can get full credit. The due time is June 2, 23: 59 (late submission policy, please check syllabus).
 
 
 You can use your favoriate programming language to solve the problem.
 Please include:
-- Your student id (using id instead of name to protect your privacy), 
-- Time complexity and space complexity of your code,
+- Your student id (using id instead of name to protect your privacy).
+- Time complexity and space complexity of your code.
 - Add necessary comments on your code.
 
 
@@ -46,4 +45,4 @@ public:
 Submit format:
 You can either 
 - submit by using txt, word or screenshot of you ACed code.
-- or wirite the solution down on the paper or blackboard and take a photo to submit.
+- or write the solution down on the paper or blackboard and take a photo to submit.

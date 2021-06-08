@@ -15,7 +15,7 @@ Which means:
 you will get at least 80. If you donot miss the complexity analysis, even you are not 
 correct, you will get 100.
 
-The due time is June 6, 23: 59 (late submission policy, pls check syllabus).
+The due time is June 6, 23: 59 (late submission policy, please check syllabus).
 
 
 You can use your favoriate programming language to solve the problem.
@@ -27,4 +27,4 @@ Please include:
 Submit format:
 You can either 
 - submit by using txt, word or screenshot of you ACed code.
-- or wirite the solution down on the paper or blackboard and take a photo to submit.
+- or write the solution down on the paper or blackboard and take a photo to submit.
