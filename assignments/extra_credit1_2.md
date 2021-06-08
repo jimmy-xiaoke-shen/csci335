@@ -16,5 +16,5 @@ you will earn:
 40 + 10 + 40 = 90 points
 
 
-For the proof of your participation, screenshot the ranking page after the contest will 
+For the proof of your participation, screenshot of the ranking page after the contest will 
 be fine. Happy coding and good luck. 
