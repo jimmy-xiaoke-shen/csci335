@@ -12,8 +12,9 @@
 It will be graded. 
 - If you miss the time complexity, you will get -5.                                     
 - If you miss the space complexity, you will get - 5.                                  
-- If your code is not correct (it can not pass by LC or BS online judge), you will get -20 
-The due time is June 14, 23: 59 (late submission policy, pls check syllabus).
+- If your code is not correct (it can not pass by LC or BS online judge), you will get -20   
+
+The due time is **June 14, 23: 59** (late submission policy, pls check syllabus).
 
 You can use your favoriate programming language to solve the problem.Please include:
 - Time complexity and space complexity of your code,
