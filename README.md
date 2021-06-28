@@ -38,7 +38,7 @@ https://gc-cuny-edu.zoom.us/skype/87175792715
 ## Textbooks
 - [REFERENCE1 Data Structures and Algorithm analysis in C++](http://www.uoitc.edu.iq/images/documents/informatics-institute/Competitive_exam/DataStructures.pdf)
 - [Reference 2 Book 1 of Competitive Programming 4](https://bookshop.org/books/competitive-programming-4-book-1-the-lower-bound-of-programming-contests-in-the-2020s/9781716745522)
-
+- [website for referece 2](https://cpbook.net)
 ## How to
 - [Apply a github account](https://github.com/)
 - [Download git](https://git-scm.com/downloads)

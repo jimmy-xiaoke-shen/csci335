@@ -1,9 +1,50 @@
 #include<iostream>
 #include<vector>
+#include<queue>
 #include<set>
 const int INF = INT_MAX;
 using namespace std;
 typedef pair<int, int> PII;
+void modified_dijkstra(int n, vector<vector<PII>> &graph, int src, int dst)
+{  // init distance from src to a node
+   vector<int> dis(n, INF); dis[src] = 0;
+   // python syntex: dis = [float("inf")]*n
+   priority_queue<PII, vector<PII>, greater<PII>> pq;
+   // init the unexplored nodes
+   for (int i = 0; i < n; ++i) 
+   {
+      if (i == src) pq.emplace(0, i);
+      else pq.emplace(INF, i);
+   }
+   while (!pq.empty())
+   {
+     // pick up the shorted node from unexplored nodes
+     auto [cost, u] = pq.top(); pq.pop();
+     // soft delection here
+     if (cost > dis[u]) continue;
+     // explore neighbors
+     for (auto &[v, weight]: graph[u])
+     {
+        int new_cost = cost + weight;
+        // find a shorter path:
+        if (new_cost < dis[v])
+        {
+           // update
+           // can not the old one now
+           // pq.erase(pq.find({dis[v], v}));
+           // update the dis[v] to the new one
+           dis[v] = new_cost;
+           // put the new one into the priority queue
+           pq.emplace(dis[v], v);
+        }
+     }
+   }
+   for (int i = 0; i < n; ++i)
+   {
+      cout << "shortest distance from src: " << src << " to node " << i << " is: " << dis[i] << endl;
+   }
+   return;
+}
 void naive_dijkstra(int n, vector<vector<PII>> &graph, int src, int dst)
 {  // init distance from src to a node
    vector<int> dis(n, INF); dis[src] = 0;
@@ -58,5 +99,6 @@ int main()
    }
    int src = 0, dst = 4;
    naive_dijkstra(n, graph, src, dst);
+   modified_dijkstra(n, graph, src, dst);
    return 0;
 }
