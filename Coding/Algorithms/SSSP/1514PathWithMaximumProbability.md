@@ -43,3 +43,42 @@ public:
     }
 };
 ```
+
+# code in python
+```python
+class Solution:
+    def maxProbability(self, n: int, edges: List[List[int]], succProb: List[float], src: int, dst: int) -> float:
+        # init
+        dis = [0]*n
+        dis[src] = 1.0
+        # build the graph
+        graphs = collections.defaultdict(list)
+        for (u, v), prob in zip(edges, succProb):
+            graphs[u].append((v, prob))
+            graphs[v].append((u, prob))
+        # print(graphs)
+        # max heap this time
+        # python default is min heap, how can we have a max heap?
+        # the idea is simple, using -x instead of x. min heap,  [10, 8, 2], [-10, -8, -2]
+        pq = []
+        heapq.heapify(pq)
+        # by using a negative value, we can change the min heap to max heap
+        heapq.heappush(pq, (-1.0, src))
+ 
+        while pq:
+            cost, u = heapq.heappop(pq)
+            # lazy delection
+            if -cost < dis[u]:continue
+            for v, p in graphs[u]:
+                newcost = -cost*p
+                if newcost > dis[v]:
+                    # if we find a better one
+                    # update
+                    # 1. remove old value, we do it in lazy deletion
+                    # 2. update the dis
+                    # 3. append the new value
+                    dis[v] = newcost
+                    heapq.heappush(pq, (-newcost, v))
+                
+        return dis[dst]
+```
