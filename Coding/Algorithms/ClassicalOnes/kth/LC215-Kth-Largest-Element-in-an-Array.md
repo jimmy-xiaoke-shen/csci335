@@ -262,3 +262,56 @@ run time
 Runtime: 8 ms, faster than 73.60% of C++ online submissions for Kth Largest Element in an Array.
 Memory Usage: 9.8 MB, less than 97.14% of C++ online submissions for Kth Largest Element in an Array.
 ```
+
+# Python # 
+## quick select (not inplace) ## 
+```python
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        pivot = random.choice(nums)
+        left = [num for num in nums if num < pivot]
+        right = [num for num in nums if num > pivot]
+        middle = [num for num in nums if num == pivot]
+        L = len(left)
+        R = len(right)
+        M = len(middle)
+        if R >= k:
+            return self.findKthLargest(right, k)
+        elif R + M >= k:
+            return pivot
+        else:
+            return self.findKthLargest(left, k - R - M)
+        
+```
+## quick select (inplace ) ## 
+```python
+# Inplace
+class Solution:
+    def find_kth(self, l, r, k):
+        pivot_idx = randint(l, r)
+        pivot = self.nums[pivot_idx]
+        next_l, next_r = l, r
+        for i in range(l, r + 1):
+            if self.nums[i] < pivot:
+                self.nums[i], self.nums[next_l] = self.nums[next_l], self.nums[i]
+                next_l += 1
+        for i in range(r, l - 1, - 1):
+            if self.nums[i] > pivot:
+                self.nums[i], self.nums[next_r] = self.nums[next_r], self.nums[i]
+                next_r -= 1
+  
+        middle_size = next_r - next_l + 1
+        right_size = r - next_r
+        left_size = next_l - l
+        if right_size >= k:
+            return self.find_kth(next_r + 1, r, k)
+        elif middle_size + right_size >= k:
+            return pivot
+        else:
+            return self.find_kth(l, next_l - 1, k - right_size - middle_size)
+
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        self.nums = nums
+        return self.find_kth(0, len(nums) - 1, k)
+        
+```
